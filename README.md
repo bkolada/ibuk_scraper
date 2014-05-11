@@ -11,4 +11,4 @@ To do:
 + maybe give a poor quality for less size 
 
 ! WARNING
-That tool is fit to my window so before u will use that properly u should set all dimmensions that will fit to your screen. 
+That tool fits to my window so before u will use that properly u should set all dimmensions that will fit to your screen. 
