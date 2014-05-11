@@ -8,5 +8,5 @@ Toolset to download already paid books on ibuk.pl into some handly file like djv
 
 To do:
 + everything :D 
-+ maybe give an poor quality for less size 
++ maybe give a poor quality for less size 
 
