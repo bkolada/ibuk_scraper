@@ -29,26 +29,23 @@ class Clicker:
 
     def click(self, pos):
         print pos
-        # self.device.emit(uinput.ABS_X, pos[0], syn=False)
-        # self.device.emit(uinput.ABS_Y, pos[1])
-        # # self.device.emit_click(uinput.BTN_RIGHT)
-        # time.sleep(2)
-        # self.device.emit_click(uinput.BTN_LEFT)
-
-
         self.m.click(pos[0], pos[1], 1)
         time.sleep(1)
 
     def click_next_button(self):
+        print "NB ",
         self.click(self.next_button_pos)
 
     def click_size_button(self):
+        print "SB ",
         self.click(self.size_button_pos)
 
     def click_blank_page(self):
+        print "BP ",
         self.click(self.blank_page_pos)
 
     def click_vertical_resize_button_page(self):
+        print "VRB ",
         self.click(self.vertical_resize_button_pos)
 
 
@@ -58,23 +55,6 @@ class Clicker:
         self.click_size_button()
         self.click_vertical_resize_button_page()
         self.click_blank_page()
-
-# findclient: 10526895
-# findclient: 10526894
-# x:1698 y:417 screen:0 window:10526894
-# [kaef@garden ~]$ xdotool getmouselocation
-# findclient: 10526895
-# findclient: 10526894
-# x:1902 y:641 screen:0 window:10526894
-# [kaef@garden ~]$ xdotool getmouselocation
-# findclient: 10526895
-# findclient: 10526894
-# x:1898 y:177 screen:0 window:10526894
-# [kaef@garden ~]$ xdotool getmouselocation
-# findclient: 10526895
-# findclient: 10526894
-# x:1647 y:184 screen:0 window:10526894
-# [kaef@garden ~]$
 
 if __name__ == "__main__":
     i = 3
